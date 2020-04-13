@@ -1,0 +1,11 @@
+{
+  "name": "udemy",
+  "version": "1.0.0",
+  "description": "Tutorial node js in udemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hogivano",
+  "license": "ISC"
+}
