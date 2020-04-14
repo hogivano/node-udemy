@@ -37,3 +37,17 @@ console.log(arrayMultipleVariable)
 for (let hobby of hobbies){
   console.log(hobby)
 }
+
+
+//spread operator untuk mengcopy variabel lama ke variabel baru
+const personSpread = {...person}
+console.log(personSpread)
+const hobbiesSpread = [...hobbies]
+console.log('Spread Operator in copy array : ' + hobbiesSpread)
+
+//rest operator menjadikan multiple argumen menjadi array
+const restArgs = (...args) => {
+  return args
+}
+
+console.log(restArgs(1,2,3,4,5))
